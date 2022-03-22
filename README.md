@@ -17,6 +17,10 @@ A simple Hello application that combines react as it's front-end and Rails as it
 - rspec `spec/requests/api/v1` to run endpoint unit tests
 - run `rails server -p 3000` to see React-Router working and `./bin/webpack-dev-server` enables auto-webpacking
 
+## Database Creation
+
+- Run `rails db:create` `rails db:migrate` `rails db:seed` to create and seed data intot the database
+
 ## Author
 👤 Akinlade Tope
 
